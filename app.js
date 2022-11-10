@@ -6,7 +6,6 @@ let port = process.env.PORT || 3000;
 
 app.use(express.static("public"))
 
-let PORT = 3000
 app.listen(PORT, console.log("listen on port" + PORT))
 
 app.get("/", (req, res) => {
